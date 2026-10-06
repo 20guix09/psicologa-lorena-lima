@@ -1,0 +1,26 @@
+SITE LORENA LIMA — ARQUIVOS FINAIS
+
+Conteúdo:
+- index.html: estrutura, estilos e scripts do site.
+- assets/: fotos utilizadas no site.
+
+Para visualizar:
+Extraia o ZIP e abra index.html no navegador.
+As fontes do Google precisam de conexão à internet; sem conexão, o navegador utiliza as fontes alternativas.
+
+Para hospedar:
+Envie index.html e a pasta assets juntos para sua hospedagem estática (como Vercel).
+Não é necessário instalar dependências nem executar um build.
+
+FORMULÁRIO — FORMSUBMIT
+O e-mail profissional da Lorena ainda não foi confirmado. Por isso o envio está bloqueado e a interface informa que está em configuração.
+No index.html, procure:
+const FORM_RECIPIENT = '';
+Preencha com o e-mail confirmado da profissional. Exemplo:
+const FORM_RECIPIENT = 'endereco-confirmado@dominio.com';
+Atualize também o texto inicial do elemento id="form-status" para não mostrar a mensagem de configuração antes do carregamento do JavaScript.
+O FormSubmit exige a confirmação de ativação no e-mail destinatário.
+Após configurar e publicar, confirme o recebimento com um teste autorizado.
+
+Contato público utilizado: WhatsApp +55 14 99766-0064; Instagram @psico.lorenalima.
+Crédito: Guilherme Lima — https://portfolio-guilherme-lima.vercel.app/
